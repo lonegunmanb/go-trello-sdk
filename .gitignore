@@ -1,0 +1,10 @@
+# Build artefacts
+/bin/
+*.test
+*.out
+coverage.*
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store

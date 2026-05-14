@@ -1,0 +1,9 @@
+# oapi-codegen configuration for the Trello REST API client.
+# Generates models + a net/http based client into the `trello` package.
+package: trello
+output: ../trello/trello.gen.go
+generate:
+  models: true
+  client: true
+output-options:
+  skip-prune: true
